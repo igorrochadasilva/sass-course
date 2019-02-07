@@ -1,0 +1,19 @@
+.msg{
+    border: 1px solid;
+    padding: 4px;
+    text-align: center;
+}
+
+.msg.error{
+    @extend .msg;
+    border-color:#ff0000;
+    color:#ff0000;
+}
+
+.msg-alert{
+    @extend .msg;
+    border-color: #ff8e00;
+    color: #ff8e00de;
+}
+
+//extend faz a class que usa herdar os atributos da class extendida

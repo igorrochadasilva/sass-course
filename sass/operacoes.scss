@@ -1,0 +1,9 @@
+h1{
+    font-size: 2em+22px;//unidade incompativel
+    font-size: 5px + 2; //7px
+    font-size: 5px * 2px; // unidade invalida
+}
+
+h1{
+    font-size: 5px - 2;// 3px
+}
