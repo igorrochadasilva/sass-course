@@ -1,1 +1,19 @@
 //mixins permitem definir estilos que podem ser reutilizados em toda a folha de estilo
+
+//sass
+
+.box {
+
+  @include border-radius(10px);
+
+}
+
+
+//css 
+
+.box{
+-webkit-border-raius:10px;
+-moz-border-radius:10px;
+-ms-border-radius: 10px;
+border-radius: 10px;
+}
